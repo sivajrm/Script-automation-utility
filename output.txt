@@ -1,0 +1,54 @@
+runfile('C:/Users/sivajrm/.spyder-py3/test.py', wdir='C:/Users/sivajrm/.spyder-py3')
+
+
+Enter the files in a single line single spaced to execute in parallel or in new line to execute after the previous tasks...
+Enter # in new line to begin processing
+
+a.sql b.sql 
+
+c.sql
+
+#
+['a.sql b.sql ', 'c.sql', '']
+
+
+
+Executing concurrently: ['a.sql', 'b.sql']
+Executing File Name: a.sql  having File ID: 13928
+Executing File Name: b.sql  having File ID: 1260
+
+
+
+Enter 'end <space> file_ID' to end the file execution: end 1260
+Ended executing file with ID: 1260
+
+
+
+Enter 'end <space> file_ID' to end the file execution: end 13928
+Ended executing file with ID: 13928
+Time for the current step test execution: 12.648529529571533secs
+
+
+Executing concurrently: ['c.sql']
+Executing File Name: c.sql  having File ID: 6680
+
+
+
+Enter 'end <space> file_ID' to end the file execution: end 6680
+Ended executing file with ID: 6680
+Time for the current step test execution: 7.4394519329071045secs
+
+
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+OVERALL STATS FOR THE EXECUTION
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+FILE NAME     START             TO       END                      TIME TAKEN
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+a.sql   ->  1517532529.6225302  to  1517532542.1774156  taking: 12.554885387420654
+b.sql   ->  1517532529.6704504  to  1517532537.5604587  taking: 7.890008211135864
+c.sql   ->  1517532542.4534762  to  1517532549.632438   taking: 7.178961753845215
